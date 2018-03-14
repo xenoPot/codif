@@ -1,0 +1,11 @@
+install:
+  cmds:
+    - go get -u github.com/spf13/cobra/cobra
+
+run:
+  cmds:
+    - go run main.go
+
+build:
+  cmds:
+    - go build -o bin/codif.exe main.go
